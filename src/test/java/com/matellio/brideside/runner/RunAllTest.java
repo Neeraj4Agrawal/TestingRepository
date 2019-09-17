@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 
 }, monochrome = true,
  //we use tag when we need to run specific method
-		tags=("@Test218"),    
+		tags=("@Test219"),    
 
 		strict = true,
 		plugin = {"pretty",

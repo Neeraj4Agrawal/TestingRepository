@@ -284,6 +284,14 @@ public class GiftPageTest {
     
     
     
+    @Then("^Verify the sub tab title at step4$")
+  	public void Verify_the_sub_tab_title_at_step4()
+  	{
+  		
+    	String actual=giftPage.getElementText(GiftPageObjectelements.get("step4_title"));
+    	
+  		giftPage.verifytext("Review Cart", actual);
+  	}
     
     
     

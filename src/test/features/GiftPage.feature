@@ -198,7 +198,19 @@ Then Select the amount at step3
 Then CLick on the Add to card button at step3
 
 
-
+@Test219
+Scenario: Scenario_01 Verify the sub tab ttile at step4
+When Do login with valid credentials
+Then Click on the sqaure menu and than click on Gift card
+Then Verify the step 1 sub tab text
+Then Type the receipient information on step1
+Then Click on the Pick a Gift card
+Then Verify the sub tab title at step 2
+Then Select the image and click on How much button
+Then Verify the sub tab title at step3
+Then Select the amount at step3
+Then CLick on the Add to card button at step3
+Then Verify the sub tab title at step4
 
 
 

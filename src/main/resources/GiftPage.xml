@@ -34,6 +34,10 @@
    <step3_AddTocart>xpath===//*[@id="pick-design-form"]/div/div[4]/div[2]/div/button</step3_AddTocart>
     <step3_AlertMessage>xpath===//*[@id="pick-design-form"]/div/div[3]/div</step3_AlertMessage>
     <step3_Amount>xpath===//*[@id="pick-design-form"]/div/div[2]/div[1]/button</step3_Amount>
+    <step4_title>xpath===/html/body/div[1]/header[2]/div/div/ul/li[4]/a</step4_title>
+    
+    
+    
    
  //*[@id="cookie-msg"]/div/div/a
  //*[@id="pick-design-form"]/div[2]/div[2]/div/button
