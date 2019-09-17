@@ -1,0 +1,175 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Initialize resources for test script",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17525817720,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Initialize resources in the beginning of each scenario for Giftpage",
+            "match": {
+              "location": "GiftPageTest.Initialize_Resources()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 188,
+        "name": "Scenario_01 Verify the Add to cart button functionality at step3",
+        "description": "",
+        "id": "gift-page-of-umeand-test;scenario-01-verify-the-add-to-cart-button-functionality-at-step3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2086616808,
+              "status": "passed"
+            },
+            "line": 189,
+            "name": "Do login with valid credentials",
+            "match": {
+              "location": "GiftPageTest.type_logincredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9285851656,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "Click on the sqaure menu and than click on Gift card",
+            "match": {
+              "location": "GiftPageTest.click_square_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 352695083,
+              "status": "passed"
+            },
+            "line": 191,
+            "name": "Verify the step 1 sub tab text",
+            "match": {
+              "location": "GiftPageTest.verify_title_step1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2676916737,
+              "status": "passed"
+            },
+            "line": 192,
+            "name": "Type the receipient information on step1",
+            "match": {
+              "location": "GiftPageTest.type_receipient_information()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 375969603,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "Click on the Pick a Gift card",
+            "match": {
+              "location": "GiftPageTest.click_on_pick_gift_card()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 289036466,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "Verify the sub tab title at step 2",
+            "match": {
+              "location": "GiftPageTest.Verify_the_sub_tab_title_at_step_2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6853241038,
+              "status": "passed"
+            },
+            "line": 195,
+            "name": "Select the image and click on How much button",
+            "match": {
+              "location": "GiftPageTest.Select_the_image_and_click_on_How_much_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5980712465,
+              "status": "passed"
+            },
+            "line": 196,
+            "name": "Verify the sub tab title at step3",
+            "match": {
+              "location": "GiftPageTest.Verify_the_sub_tab_title_at_step3()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 424173179,
+              "status": "passed"
+            },
+            "line": 197,
+            "name": "Select the amount at step3",
+            "match": {
+              "location": "GiftPageTest.Select_the_amount_at_step3()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 449470406,
+              "status": "passed"
+            },
+            "line": 198,
+            "name": "CLick on the Add to card button at step3",
+            "match": {
+              "location": "GiftPageTest.CLick_on_the_Add_to_card_button_at_step3()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 187,
+            "name": "@Test218"
+          }
+        ]
+      }
+    ],
+    "name": "Gift page of Umeand Test",
+    "description": "In order to test functionality of Gift page\nWe will test Giftpage feature with different combination of data to test the Giftpage functionality",
+    "id": "gift-page-of-umeand-test",
+    "keyword": "Feature",
+    "uri": "src/test/features/GiftPage.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@CompanyPage"
+      }
+    ]
+  }
+]

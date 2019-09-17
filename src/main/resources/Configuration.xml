@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration [<!ENTITY configuration SYSTEM "../../../modulesSuite.xml">]>
+<Configuration>
+	<brideside>
+		<waittime>5</waittime>
+	<browser>chrome</browser> 
+		<env>live</env> 
+		<adminUserName_Locator>id===email</adminUserName_Locator>
+		<adminPassword_Locator>id===password</adminPassword_Locator>
+		<adminLoginbutton_Locator>xpath===//*[@id="panel"]/main/app-login/section/div/div/div/form/fieldset/div[3]/a</adminLoginbutton_Locator>
+		<logo>xpath===//*[@id="panel"]/main/app-corporate/div/app-admin-dashboard/section/div/div/div/div/ul/li[1]/a</logo>
+		<optionDropDown>xpath===html/body/div[1]/div/div/div/form/fieldset/div[2]/div/div[2]/button</optionDropDown>
+		<logout>xpath===//*[@id='navbar-container']/div[2]/ul/li/ul/li/a</logout>		
+	</brideside>
+
+	<environment_url>
+	    <live>http://52.8.112.98/umeand_qa/site/login</live>
+		<lives>https://shop.brideside.com/account/login/</lives>
+		<stg>http://staging.brideside.com/account/login/</stg>
+		
+	</environment_url>
+
+	<userlogincredentials>
+		<stg_username>superadmin@vcarddev.com</stg_username>
+		<stg_password>super@vcg#321$</stg_password>
+	</userlogincredentials>
+	
+	<databaseconfig>
+		<dev></dev>
+		<qa></qa>
+		<live></live>
+	</databaseconfig>
+
+	<databaseuserconfig>
+		<dev_username></dev_username>
+		<dev_password></dev_password>
+		<qa_username></qa_username>
+		<qa_password></qa_password>
+		<live_username></live_username>
+		<live_password></live_password>
+	</databaseuserconfig>
+	
+	<apiconfig>
+		<durationMsecs>900000</durationMsecs>
+		<dataFile>src\main\resources\datafile.xls</dataFile>
+		<adminUsername>gpadmin</adminUsername>
+		<adminPassword>P@ssword1!</adminPassword>
+		<dbUsername>gpup</dbUsername>
+		<dbPassword>C0ff33H0us3!</dbPassword>
+	</apiconfig>
+
+</Configuration>

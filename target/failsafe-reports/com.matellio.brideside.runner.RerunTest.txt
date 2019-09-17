@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.matellio.brideside.runner.RerunTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.36 sec <<< FAILURE! - in com.matellio.brideside.runner.RerunTest
+initializationError(com.matellio.brideside.runner.RerunTest)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Not a file or directory: /home/cgt/brideside-ui-automation/target/rerun.txt
+

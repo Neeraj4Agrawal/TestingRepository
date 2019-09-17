@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration [<!ENTITY configuration SYSTEM "../../../modulesSuite.xml">]>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GiftPageObjectRepository>
+	
+	<loginEmail>xpath===//input[@id='loginform-email']</loginEmail>
+	<loginPassword>xpath===//input[@id='loginform-password']</loginPassword>
+	<loginButton>xpath===/html/body/div[1]/section/div/div/div[1]/div/div/form/div[5]/div/button</loginButton>
+	<squareMenu>xpath===//*[@id="w2"]/li[2]/a/img</squareMenu>
+	<squareMenu_GiftCard>xpath===//*[@id="w3"]/li[5]/a</squareMenu_GiftCard>>
+	<Step1_submenutitle>xpath===/html/body/div[1]/header[2]/div/div/ul/li[1]/a</Step1_submenutitle>
+	<Step1_ReceipientName>xpath===//*[@id="usergiftcards-to_user_name"]</Step1_ReceipientName>
+	<Step1_ReceipientEmail>xpath===//*[@id="usergiftcards-to_user_email"]</Step1_ReceipientEmail>
+	<Step1_ReceipientMessage>xpath===//*[@id="usergiftcards-message"]</Step1_ReceipientMessage>
+	<Step1_SenderName>xpath===//*[@id="usergiftcards-from_user_name"]</Step1_SenderName>
+	<Step1_PickaGiftCard>xpath===//*[@id="gift-recipient-form"]/div[4]/button</Step1_PickaGiftCard>
+	<Step1_alertmessage_Recepientname>xpath===//*[@id="gift-recipient-form"]/div[1]/div[2]/div/div/div</Step1_alertmessage_Recepientname>
+<Step1_alertmessage_RecepientEmail>xpath===//*[@id="gift-recipient-form"]/div[1]/div[3]/div/div/div</Step1_alertmessage_RecepientEmail>	
+	<Step1_alertmessage_RecepientMessage>xpath===//*[@id="gift-recipient-form"]/div[2]/div/div/div/div</Step1_alertmessage_RecepientMessage>
+<Step1_alertmessage_InvlaidEmail>xpath===//*[@id="gift-recipient-form"]/div[1]/div[3]/div/div/div</Step1_alertmessage_InvlaidEmail>	
+	
+	<Step1_EmailTome_Subtab>xpath===//*[@id="recipent"]/div/div/div[2]/div/ul/li[2]/a</Step1_EmailTome_Subtab>
+  <Step1_EmailTome_Username>xpath===//*[@id="usergiftcards-to_user_name"]</Step1_EmailTome_Username>
+  <Step1_EmailTome_Email>xpath===//*[@id="usergiftcards-to_user_email"]</Step1_EmailTome_Email>
+    <Step2_SubTabTitle>xpath===/html/body/div[1]/header[2]/div/div/ul/li[2]/a</Step2_SubTabTitle>
+  <Step2_HowMuchButton>xpath===//*[@id="pick-design-form"]/div[2]/div[2]/div/button</Step2_HowMuchButton>
+  <GetButton>xpath=== //*[@id="cookie-msg"]/div/div/a</GetButton>
+  
+   <image_step2>xpath===//*[@id="pick-design-form"]/div[1]/div[7]/div</image_step2>
+  <step2_backbutton>xpath===//*[@id="pick-design-form"]/div[2]/div[1]/div/a/button</step2_backbutton>
+   <step2_image>xpath===//*[@id="pick-design-form"]/div[1]/div[1]/img</step2_image>
+   <step3_subtabTitle>xpath===/html/body/div[1]/header[2]/div/div/ul/li[3]/a</step3_subtabTitle>
+     <step3_Back>xpath===//*[@id="pick-design-form"]/div/div[4]/div[1]/div/a/button</step3_Back>
+   <step3_AddTocart>xpath===//*[@id="pick-design-form"]/div/div[4]/div[2]/div/button</step3_AddTocart>
+    <step3_AlertMessage>xpath===//*[@id="pick-design-form"]/div/div[3]/div</step3_AlertMessage>
+    <step3_Amount>xpath===//*[@id="pick-design-form"]/div/div[2]/div[1]/button</step3_Amount>
+   
+ //*[@id="cookie-msg"]/div/div/a
+ //*[@id="pick-design-form"]/div[2]/div[2]/div/button
+ 
+ 
+  
+    </GiftPageObjectRepository>
+	
+</Company>
+
+

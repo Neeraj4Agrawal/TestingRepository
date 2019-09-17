@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.matellio.brideside.runner.RunAllTest
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 0, Errors: 2, Skipped: 24, Time elapsed: 12.695 sec <<< FAILURE! - in com.matellio.brideside.runner.RunAllTest
+Then use mouse hove on shopnow menu(Scenario: Scenario_02 Verify sub menus of shopnow)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.ClassCastException: org.openqa.selenium.remote.RemoteWebElement cannot be cast to org.openqa.selenium.interactions.Locatable
+
+Scenario: Scenario_02 Verify sub menus of shopnow  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.ClassCastException: org.openqa.selenium.remote.RemoteWebElement cannot be cast to org.openqa.selenium.interactions.Locatable
+

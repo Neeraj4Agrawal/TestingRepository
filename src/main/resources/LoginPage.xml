@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Login xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<loginObjectRepository>
+	<logo>xpath===//div[@class='hd_headertopaddress hd_headertopaddressLogomain ']</logo>
+	<loginEmail>xpath===//input[@id='loginform-email']</loginEmail>
+	<loginPassword>xpath===//input[@id='loginform-password']</loginPassword>
+	<loginButton>xpath===.//button[@class="btn custom-loginbtn waves-effect waves-light"]</loginButton>
+	<welcome>xpath===//*[@id="w2"]/li[1]/a/div</welcome>
+	<welcometitle>xpath===/html/body/div[1]/section/div/div/div/div[1]</welcometitle>
+	<welcomedelete>xpath===//*[@id="message-search-form"]/table/thead/tr/th[2]/button</welcomedelete>
+	<welcomemenus>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[2]/ul/li[3]/a</welcomemenus>
+    <menusettings>xpath===//*[@id="w4"]/li[1]/a</menusettings>
+    <settingsaccount>xpath===/html/body/div[1]/section/div/div/div/div/div/div[2]/div[4]/div[1]</settingsaccount>
+    <menusubscription>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[2]/ul/li[3]/ul/li[2]/a/img</menusubscription>
+    <subscriptionPaymentmethod>xpath===/html/body/div[1]/section/div/div/div/div/div/div[2]/div[1]/div/div[1]</subscriptionPaymentmethod>
+    <subscriptionmenu>xpath===//*[@id="w3"]/li[4]/a</subscriptionmenu>
+    <menuContacts>xpath===//*[@id="w5"]/li[3]/a/img</menuContacts>
+    <contacttitle>xpath===/html/body/div[1]/section/div/div/div/div[1]</contacttitle> 
+    <contactmenu>xpath===//*[@id="w3"]/li[3]/a</contactmenu> 
+    <menuDashboard>xpath===//*[@id="w5"]/li[4]/a/img</menuDashboard> 
+    <DashboardTitle>xpath===/html/body/div[1]/section/div/div/div/div[1]</DashboardTitle> 
+    <Dashboardmenu>xpath===//*[@id="w3"]/li[3]/a/img</Dashboardmenu>
+    <DashboardAddNewTeam>xpath===//*[@id="manage-team"]</DashboardAddNewTeam>
+    <DashboardNameTeam>xpath===//*[@id="teams-team_name"]</DashboardNameTeam>
+    <DashboardCreateButton>xpath===//*[@id="team-submit-btn"]</DashboardCreateButton>
+    
+    
+    
+    <menuShareyourstory>xpath===//*[@id="w5"]/li[5]/a/img</menuShareyourstory> 
+    <StoryTitle>xpath===/html/body/div[1]/section/div/div/div/div[1]</StoryTitle> 
+    <Storymenu>xpath===//*[@id="w3"]/li[3]/a/img</Storymenu>
+    <menulogout>xpath===//*[@id="w5"]/li[6]/a/img</menulogout> 
+    <HomeLogin>xpath===//*[@id="w1"]/li[3]/a</HomeLogin> 
+    <HomePlan>xpath===/html/body/div[1]/section[3]/div/div/div/div[1]/div[1]/div/a</HomePlan>
+    <PlanTilte>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[1]/span</PlanTilte>
+    <PlanPlatform>xpath===/html/body/div[1]/section[3]/div/div/div/div[1]/div[1]/ul/li[1]/a</PlanPlatform>
+    <PlatFormTilte>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[1]/span</PlatFormTilte>
+    <PlatFormWriteForUs>xpath===/html/body/div[1]/section[3]/div/div/div/div[1]/div[1]/ul/li[2]/a</PlatFormWriteForUs>
+    <WriteForUsTilte>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[1]/span</WriteForUsTilte>
+    <WriteForUs_Community>xpath===/html/body/div[1]/section[4]/div/div/div/div[1]/div[1]/ul/li[3]/a</WriteForUs_Community>
+    <CommunityTilte>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[1]/span</CommunityTilte>
+    <CommunityAboutUs>xpath===/html/body/div[1]/section[3]/div/div/div/div[1]/div[2]/div/a</CommunityAboutUs>
+    <AboutUsTilte>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[1]/span</AboutUsTilte>
+    <AboutUsContactus>xpath===/html/body/div[1]/section[3]/div/div/div/div[1]/div[2]/ul/li[2]/a</AboutUsContactus>
+    <ContactUsTilte>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[1]/span</ContactUsTilte>
+    <ContactUsCareers>xpath===/html/body/div[1]/section[3]/div/div/div/div[1]/div[2]/ul/li[3]/a</ContactUsCareers>
+    <CareersTilte>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[1]/span</CareersTilte>
+    <CareersHelpGuide>xpath===/html/body/div[1]/section[3]/div/div/div/div[1]/div[3]/div/a</CareersHelpGuide>
+    <HelpGuideTilte>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[1]/span</HelpGuideTilte>
+    <HelpGuidePrivacyPolicy>xpath===/html/body/div[1]/section[3]/div/div/div/div[1]/div[3]/ul/li[1]/a</HelpGuidePrivacyPolicy>
+    <PrivacypolicyTilte>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[1]/span</PrivacypolicyTilte>
+    <PrivacypolicyTermsOfUse>xpath===/html/body/div[1]/section[3]/div/div/div/div[1]/div[3]/ul/li[2]/a</PrivacypolicyTermsOfUse>
+    <TermsOfUseTilte>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[1]/span</TermsOfUseTilte>
+
+
+
+
+	</loginObjectRepository>
+	
+	<SingUpRepository>
+	<loginEmail>xpath===//input[@id='loginform-email']</loginEmail>
+	<loginPassword>xpath===//input[@id='loginform-password']</loginPassword>
+	<loginButton>xpath===.//button[@class="btn custom-loginbtn waves-effect waves-light"]</loginButton>
+	<loginemail_message>xpath===/html/body/div[1]/section/div/div/div[1]/div/div/form/div[2]/div/div/p</loginemail_message>
+	<loginPasword_message>xpath===/html/body/div[1]/section/div/div/div[1]/div/div/form/div[3]/div/div/p</loginPasword_message>
+	<loginInvalidEmail_message>xpath===/html/body/div[1]/section/div/div/div[1]/div/div/form/div[2]/div/div/p</loginInvalidEmail_message>
+	<loginInvalidCredential_message>xpath===/html/body/div[1]/section/div/div/div[1]/div/div/form/div[3]/div/div/p</loginInvalidCredential_message>
+	
+	<login_Rememberme>xpath===/html/body/div[1]/section/div/div/div[1]/div/div/form/div[4]/div[1]/div/div/label</login_Rememberme>
+	
+	<login_forgotpsw>xpath===/html/body/div[1]/section/div/div/div[1]/div/div/form/div[4]/div[2]/div/a</login_forgotpsw>
+   <forgot_verifcationBTN>xpath===/html/body/div[1]/section/div/div/div/div/div/div/form/div/div/div/div[2]/button</forgot_verifcationBTN>
+<forgot_blankemaimessage>xpath===/html/body/div[1]/section/div/div/div/div/div/div/form/div/div/div/div[1]/p</forgot_blankemaimessage>
+<forgot_invalidemaimessage>xpath===/html/body/div[1]/section/div/div/div/div/div/div/form/div/div/div/div[1]/p</forgot_invalidemaimessage>
+<forgot_Registeredemaimessage>xpath===/html/body/div[1]/section/div/div/div/div/div/div/form/div/div/div/div[1]/p</forgot_Registeredemaimessage>
+	<forgot_EmailField>xpath===//*[@id="passwordresetrequestform-email"]</forgot_EmailField>
+	<forgot_instruction>xpath===/html/body/div[1]/section/div/div/div/div/div/div/div[2]/div</forgot_instruction>
+	
+/html/body/div[1]/section/div/div/div/div/div/div/div[2]/div
+	
+	  <loginButton>xpath===.//button[@class="btn custom-loginbtn waves-effect waves-light"]</loginButton>
+	  <loginSignUPlink>xpath===/html/body/div[1]/section/div/div/div[1]/div/div/form/div[6]/div/a</loginSignUPlink>
+	  <plantitle>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[1]/span</plantitle>
+	  <ScheduleFor30days_social>xpath===/html/body/div[1]/section[1]/div/form/div[2]/div[2]/div/div[1]/div/div[4]/button</ScheduleFor30days_social>
+	  <YourOrderSummary_SubTab>xpath===/html/body/div[1]/section/div/div/ul/li[1]/a</YourOrderSummary_SubTab>
+	  <YourOrderSummary_text>xpath===/html/body/div[1]/section/div/div/div/div[1]/div/div/div[1]/div[2]/div/p[1]</YourOrderSummary_text>
+	  <YourOrderSummary_next>xpath===/html/body/div[1]/section/div/div/div/div[1]/div/div/div[1]/div[2]/form/button</YourOrderSummary_next>
+	  <createAccount_SubTab>xpath===/html/body/div[1]/section/div/div/ul/li[2]/a</createAccount_SubTab>
+	  <createAccount_firstName>xpath===//*[@id="user-first_name"]</createAccount_firstName>
+	  <createAccount_LastName>xpath===//*[@id="user-last_name"]</createAccount_LastName>
+	  <createAccount_emailAddress>xpath===//*[@id="user-email"]</createAccount_emailAddress>
+	  <createAccount_Gender>xpath===//*[@id="gender"]</createAccount_Gender>
+	  <createAccount_Pasword>xpath===//*[@id="user-password"]</createAccount_Pasword>
+	  <createAccount_CPassword>xpath===//*[@id="user-confirm_password"]</createAccount_CPassword>
+	  <createAccount_ContinueButton>xpath===/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/form/div[4]/div/div/button</createAccount_ContinueButton>
+	  <PaymentMethod_title>xpath===//*[@id="user-confirm_password"]</PaymentMethod_title>
+	  <PaymentMethod_cardNumber>xpath===//*[@id="paymentcard-number"]</PaymentMethod_cardNumber>
+	  <PaymentMethod_month>xpath===//*[@id="paymentcard-expire_month"]</PaymentMethod_month>
+	  <PaymentMethod_year>xpath===//*[@id="paymentcard-expire_year"]</PaymentMethod_year>
+	  <PaymentMethod_cvcode>xpath===//*[@id="paymentcard-card_cvc"]</PaymentMethod_cvcode>
+	  <PaymentMethod_firstname>xpath===//*[@id="paymentcard-first_name"]</PaymentMethod_firstname>
+	  <PaymentMethod_Lastname>xpath===//*[@id="paymentcard-last_name"]</PaymentMethod_Lastname>
+	  <PaymentMethod_country>xpath===//*[@id="payment_card_country"]</PaymentMethod_country>
+	  <PaymentMethod_city>xpath===//*[@id="paymentcard-town_city"]</PaymentMethod_city>
+	  <PaymentMethod_postcode>xpath===//*[@id="paymentcard-postcode"]</PaymentMethod_postcode>
+	  <PaymentMethod_address>xpath===//*[@id="paymentcard-address"]</PaymentMethod_address>
+	  <PaymentMethod_proceedCheckout>xpath===/html/body/div[1]/section/div/div/div/div[3]/div/div[4]/div[2]/form/button</PaymentMethod_proceedCheckout>
+	  <PaymentMethod_checkoutTitle>xpath===/html/body/div[1]/section/div/div/ul/li[4]/a</PaymentMethod_checkoutTitle>
+	  <PaymentMethod_checkoutButton>xpath===/html/body/div[1]/section/div/div/div/div[4]/div/div[1]/div[2]/form/button</PaymentMethod_checkoutButton>
+	 <PaymentMethod_verifyAccountSubtab>xpath===/html/body/div[1]/section/div/div/ul/li[5]/a</PaymentMethod_verifyAccountSubtab>
+	 <PaymentMethod_sendagain>xpath===/html/body/div[1]/section/div/div/div/div[5]/div/div[1]/div[4]/a</PaymentMethod_sendagain>
+     <PaymentMethod_TermOfUse>xpath===/html/body/div[1]/section/div/div/div/div[1]/div/div/div[2]/ul/li[1]/a</PaymentMethod_TermOfUse>
+       <PaymentMethod_privacy>xpath===/html/body/div[1]/section/div/div/div/div[1]/div/div/div[2]/ul/li[3]/a</PaymentMethod_privacy>
+     <PaymentMethod_facebook>xpath===/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/div/div[2]/div/div/ul/li[1]/div/a</PaymentMethod_facebook>
+      <PaymentMethod_google>xpath===/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/div/div[2]/div/div/ul/li[2]/div/a</PaymentMethod_google>
+  <PaymentMethod_calogin>xpath===/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/form/div[4]/div/div/div/a</PaymentMethod_calogin>
+  <PaymentMethod_firstnameAMessage>xpath===/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/form/div[1]/div[1]/div/p</PaymentMethod_firstnameAMessage>
+   <PaymentMethod_LastnameAMessage>xpath===/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/form/div[1]/div[2]/div/p</PaymentMethod_LastnameAMessage>
+	<PaymentMethod_emailaddressAMessage>xpath===/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/form/div[2]/div[1]/div/p</PaymentMethod_emailaddressAMessage>
+	 <PaymentMethod_passwordAMessage>xpath===/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/form/div[3]/div[1]/div/p</PaymentMethod_passwordAMessage>
+	 <PaymentMethod_ConpasswordAMessage>xpath===/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/form/div[3]/div[2]/div/p</PaymentMethod_ConpasswordAMessage>
+	<PaymentMethod_passwordmissmatchMessage>xpath===/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/form/div[3]/div[2]/div/p</PaymentMethod_passwordmissmatchMessage>
+	<createaccount_password>xpath===//*[@id="user-password"]</createaccount_password>
+	<createaccount_Cpassword>xpath===//*[@id="user-confirm_password"]</createaccount_Cpassword>
+	<createaccount_invalidMessage>xpath===/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/form/div[3]/div[1]/div/p</createaccount_invalidMessage>
+	
+	<payment_alertmessage>xpath===/html/body/div[1]/section/div/div/div/div[3]/div/div[4]/div[2]/form/span</payment_alertmessage>
+	
+	
+	
+	/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/form/div[3]/div[2]/div/p
+	/html/body/div[1]/section/div/div/div/div[2]/div/div[1]/div[2]/form/div[2]/div[1]/div/p
+	</SingUpRepository>
+	
+	
+	
+	
+	
+	
+	
+	<loginObjectText>
+		<blankUserNameText>Username required</blankUserNameText>
+		<blankPasswordText>Password required</blankPasswordText>
+		<correctPasswordText>Password required</correctPasswordText>
+	</loginObjectText>
+</Login>

@@ -1,0 +1,17 @@
+[0508/111739.647:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0508/112351.015:ERROR:file_io_win.cc(161)] CreateFile C:\Users\CGT_JP~2\AppData\Local\Temp\scoped_dir11164_6312\Crashpad\settings.dat: The system cannot find the path specified. (0x3)
+[0508/112351.016:ERROR:file_io_win.cc(170)] CreateFile C:\Users\CGT_JP~2\AppData\Local\Temp\scoped_dir11164_6312\Crashpad\reports\a9fb1d3f-275a-4f1a-978a-26444e9fe0e8.dmp: The system cannot find the path specified. (0x3)
+[0508/112351.016:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0510/110426.594:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0510/115125.693:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0510/122604.451:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0516/123740.169:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0522/105348.804:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0522/105348.843:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0522/105348.843:ERROR:process_memory_win.cc(39)] Failed to initialize ProcessInfo.
+[0522/105348.843:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0528/132715.449:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0530/182410.122:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0612/182828.509:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0626/174600.076:ERROR:prune_crash_reports.cc(34)] PruneCrashReportDatabase: Failed to get pending reports
+[0703/154047.720:ERROR:file_io_win.cc(161)] CreateFile C:\Users\CGT_JP~2\AppData\Local\Temp\scoped_dir12704_4714\Crashpad\settings.dat: The system cannot find the file specified. (0x2)

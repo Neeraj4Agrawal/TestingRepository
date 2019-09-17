@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration [<!ENTITY configuration SYSTEM "../../../modulesSuite.xml">]>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CompanyObjectRepository>
+	
+	<loginEmail>xpath===//input[@id='loginform-email']</loginEmail>
+	<loginPassword>xpath===//input[@id='loginform-password']</loginPassword>
+	<loginButton>xpath===/html/body/div[1]/section/div/div/div[1]/div/div/form/div[5]/div/button</loginButton>
+	<loginButton>xpath===.//button[@class="btn custom-loginbtn waves-effect waves-light"]</loginButton>
+	<welcome>xpath===//*[@id="w2"]/li[1]/a/div</welcome>
+	<welcometitle>xpath===/html/body/div[1]/section/div/div/div/div[1]</welcometitle>
+	<welcomemenus>xpath===/html/body/div[1]/header/header/div/div/nav/div/div[2]/ul/li[3]/a</welcomemenus>
+	<Settings_dashboard>xpath===//*[@id="w4"]/li[4]/a/img</Settings_dashboard>
+	<Coampanydashbaord1_title>xpath===/html/body/div[1]/section/div/div/div/div[1]</Coampanydashbaord1_title>
+	<Coampany_AddTeam>xpath===//*[@id="manage-team"]</Coampany_AddTeam>
+	<AddNewTeam_Title>xpath===//*[@id="manage-team-form"]/div/div[1]/h4</AddNewTeam_Title>
+	<Team_AddTeam>xpath===//*[@id="teams-team_name"]</Team_AddTeam>
+	<Team_createButton>xpath===//*[@id="team-submit-btn"]</Team_createButton>
+	<Team_validationmsg_teamblank>xpath===//*[@id="manage-team-form"]/div/div[2]/div/div/div[2]/div/div</Team_validationmsg_teamblank>
+    <cross_icon>xpath===//*[@id="manage-team-form"]/div/div[1]/button</cross_icon>
+    <Coampanydashbaord1_title_Popupremove>xpath===/html/body/div[3]/section/div/div/div/div[1]</Coampanydashbaord1_title_Popupremove>
+     <Team_validationExistmsg>xpath===//*[@id="manage-team-form"]/div/div[2]/div/div/div[2]/div/div</Team_validationExistmsg>
+    <pollInvited_buton>xpath===//*[@id="my-participated-poll"]</pollInvited_buton>
+    <pollInvited_Title>xpath===/html/body/div[1]/section/div/div/div/div[1]</pollInvited_Title>
+    <pollInvited_dashboard>xpath===//*[@id="dashboard"]</pollInvited_dashboard>   
+    <pollInvited_Contacts>xpath===//*[@id="contact-btn"]</pollInvited_Contacts>   
+    <pollInvited_Export>xpath===//*[@id="export-button"]</pollInvited_Export>
+   <pCompany_TeamDashboard>xpath===//*[@id="manage-team-dashboard-btn"]</pCompany_TeamDashboard>
+    <CDashboard_ScheuleMeetbtn>xpath===//*[@id="add-contact-btn"]</CDashboard_ScheuleMeetbtn>
+    <ScheduleMeetUp_Tille>xpath===//*[@id="w0"]/div[1]/div/div/div/h3</ScheduleMeetUp_Tille>
+    <ScheduleMeetUp_TilleName>xpath===//*[@id="meetuppoll-title"]</ScheduleMeetUp_TilleName>
+   <ScheduleMeetUp_Notes>xpath===//*[@id="meetuppoll-notes"]</ScheduleMeetUp_Notes>
+   <ScheduleMeetUp_location>xpath===//*[@id="meetuppoll-location"]</ScheduleMeetUp_location>
+    <ScheduleMeetUp_Continue>xpath===//*[@id="w0"]/div[4]/div/div/div/div[2]/button</ScheduleMeetUp_Continue>
+    <ScheduleMeetUp_blankTitleMessage>xpath===//*[@id="w0"]/div[2]/div/div[1]/div[2]/div[1]/div[2]/div/div</ScheduleMeetUp_blankTitleMessage>
+   <ScheduleMeetUp_pollSettings>xpath===//*[@id="poll-settings"]</ScheduleMeetUp_pollSettings>
+   <ScheduleMeetUp_pollSettingsEditVote>xpath===//*[@id="w0"]/div[3]/div[6]/div[2]/div/label</ScheduleMeetUp_pollSettingsEditVote>
+   <ScheduleMeetUpStep2_title>xpath===/html/body/div[1]/div[1]/section/div[1]/h3</ScheduleMeetUpStep2_title>
+   <ScheduleMeetUpStep2_startDAATE>xpath===//*[@id="meetuppolldatetime-start_date"]</ScheduleMeetUpStep2_startDAATE>
+    <ScheduleMeetUpStep2_EndDAATE>xpath===//*[@id="meetuppolldatetime-end_date"]</ScheduleMeetUpStep2_EndDAATE>
+       <ScheduleMeetUpStep2_startTime>xpath===//*[@id="meetuppolldatetime-start_time"]</ScheduleMeetUpStep2_startTime>
+    <ScheduleMeetUpStep2_EndTime>xpath===//*[@id="meetuppolldatetime-end_time"]</ScheduleMeetUpStep2_EndTime>
+     <ScheduleMeetUpStep2_AddButtonn>xpath===//*[@id="poll-datetime-form"]/div/div/div/div[4]/div/div/button</ScheduleMeetUpStep2_AddButtonn>
+     <ScheduleMeetUpStep2_BackButtonn>xpath===/html/body/div[1]/div[1]/section/div[4]/div/div/a[1]/button</ScheduleMeetUpStep2_BackButtonn>
+    
+    <TeamDashboard_sharepolllink>xpath===//*[@id="share-group-list-btn"]</TeamDashboard_sharepolllink>
+    <TeamDashboard_sharepolllinkTitle>xpath===//*[@id="share-poll-link-dashboard"]/div/div[1]/h4</TeamDashboard_sharepolllinkTitle>
+   <SharePollLink_from>xpath===//*[@id="sharepollemailform-from"]</SharePollLink_from> 
+     <SharePollLink_SendTO>xpath===//*[@id="sharepollemailform-emailids"]</SharePollLink_SendTO> 
+     <SharePollLink_Message>xpath===//*[@id="sharepollemailform-notes"]</SharePollLink_Message> 
+    <SharePollLink_Send>xpath===//*[@id="share-poll-link-dashboard"]/div/div[3]/div[2]/button</SharePollLink_Send> 
+    <SharePollLink_invalidemailMSG>xpath===//*[@id="share-poll-link-dashboard"]/div/div[2]/div[2]/div/div</SharePollLink_invalidemailMSG>
+    <SharePollLink_Cancel>xpath===//*[@id="share-poll-link-dashboard"]/div/div[3]/div[1]/button</SharePollLink_Cancel> 
+ <SharePollLink_Cross>xpath===//*[@id="share-poll-link-dashboard"]/div/div[1]/button</SharePollLink_Cross> 
+ <TeamDashboard_pollsettings>xpath===//*[@id="setting-group-list-btn"]</TeamDashboard_pollsettings>
+  <pollsettings_title>xpath===//*[@id="w0"]/div[1]/div/div/div[2]/h3</pollsettings_title>
+  <pollsettings_Savebutton>xpath===//*[@id="hide-poll-settings"]</pollsettings_Savebutton>
+   <pollsettings_BackButton>xpath===//*[@id="w0"]/div[1]/div/div/div[1]/a/span</pollsettings_BackButton>
+  <pollsettings_EditVoteButton>xpath===//*[@id="w0"]/div[2]/div[6]/div[2]/div/label</pollsettings_EditVoteButton>
+   <pollsettings_pp>xpath===/html/body/div[1]/div/ul/li[3]/a</pollsettings_pp>
+    <pollsettings_Terms>xpath===/html/body/div[1]/div/ul/li[1]/a</pollsettings_Terms>
+    <pollsettings_cookieGot>xpath=== //*[@id="cookie-msg"]/div/div/a</pollsettings_cookieGot>
+    <pollsettings_footertext>xpath===/html/body/div[1]/div/ul/li[5]</pollsettings_footertext>
+    <CompanyDashobard_EditTeam>xpath===//*[@id="update-contact-btn"]</CompanyDashobard_EditTeam>
+   
+   //*[@id="contact-btn"]
+   //*[@id="cookie-msg"]/div/div/a
+    </CompanyObjectRepository>
+	
+	/html/body/div[3]/section/div/div/div/div[1]
+</Company>
+
+
+
+
+
